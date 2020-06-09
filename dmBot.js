@@ -22,7 +22,7 @@ dmBot.on("ready", async () => {
 dmBot.on("message", (message) => {
     
     
-    if (message.channel.type === "dm") { 
+    if (message.channel.type === "send") { 
         var args = message.content.split(" ").slice(0)
         var args = args.slice(0).join(" ")
         var BOT_ID = dmBot.user.id
@@ -73,4 +73,4 @@ dmBot.on("message", (message) => {
 });
 
 
-dmBot.login(config.TOKEN);
+dmBot.login(config.NzE5ODU5OTc2MzI3Mzk3Mzc3.Xt-4RQ.TAfR2rOLFCpJ8oG_G1tNOZKR_zo);
